@@ -1,0 +1,7 @@
+.tile {
+  min-height: 4rem;
+  min-width: 4rem;
+  font-size: 4rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
