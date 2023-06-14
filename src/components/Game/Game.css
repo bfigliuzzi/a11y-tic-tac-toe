@@ -9,6 +9,16 @@ details {
   margin-bottom: 3rem;
 }
 
+details summary {
+  font-size: 120%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details[open] summary {
+  margin-bottom: 1rem;
+}
+
 details ul,
 details li:last-child {
   margin-bottom: 0;

@@ -27,7 +27,7 @@ export default function Game() {
             marks in empty squares, by clicking on them.
           </li>
           <li>
-            The first player to get 3 of her marks in a row (up, down, across,
+            The first player to get 3 of its marks in a row (up, down, across,
             or diagonally) is the winner.
           </li>
           <li>
@@ -38,15 +38,16 @@ export default function Game() {
       </section>
 
       <details>
-        <summary>Keyboard commands:</summary>
+        <summary>Keyboard commands</summary>
         <ul>
           <li>
             Press the "ctrl" or "cmd" + "k" keys to focus the top left tile.
           </li>
           <li>
             Press the space bar to mark the tile with either an X or an O,
-            depending on your turn.
+            depending on the current player to play.
           </li>
+          <li>Use the arrow keys to change the focused tile.</li>
           <li>Press the "ctrl" or "cmd" + "i" keys to start a new game.</li>
         </ul>
       </details>
